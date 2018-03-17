@@ -8,7 +8,7 @@ download.file(fileUrl,destfile="./Course 3 Data/Dataset.zip")
 unzip(zipfile="./Course 3 Data/Dataset.zip",exdir="./Course 3 Data")
 
 ## Read the data sets
-activity_labels = read.table("./Course 3 Data/UCI HAR Dataset/activity_labels.txt")
+activity_labels <- read.table("./Course 3 Data/UCI HAR Dataset/activity_labels.txt")
 features_labels <- read.table("./Course 3 Data/UCI HAR Dataset/features.txt")
 subject_test <- read.table("./Course 3 Data/UCI HAR Dataset/test/subject_test.txt")
 x_test <- read.table("./Course 3 Data/UCI HAR Dataset/test/X_test.txt")
