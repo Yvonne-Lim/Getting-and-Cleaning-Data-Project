@@ -14,5 +14,4 @@ Packages to be installed: install.packages("reshape2")
 4. Extracts only the measurements on the mean and standard deviation for each measurement by the grep function. 
 5. Gets the descriptive activity names of the data set by looking up the activity_id from the activity_labels.txt file.
 6. Fixing characters in the data by the gsub function.  
-7. Creates a second, independent tidy data set with the average of each variable for each activity and each subject by using the reshape2 package.
-8. Create Tidy_Data.txt file with write.table() using row.name=FALSE.
+7. Creates a second, independent tidy data set with the average of each variable for each activity and each subject by using the reshape2 package and name it as Tidy_Data.txt file with write.table() using row.name=FALSE.
