@@ -15,3 +15,12 @@ Packages to be installed: install.packages("reshape2")
 5. Gets the descriptive activity names of the data set by looking up the activity_id from the activity_labels.txt file.
 6. Fixing characters in the data by the gsub function.  
 7. Creates a second, independent tidy data set with the average of each variable for each activity and each subject by using the reshape2 package and name it as Tidy_Data.txt file with write.table() using row.name=FALSE.
+
+
+License:
+========
+Use of this dataset in publications must be acknowledged by referencing the following publication [1] 
+
+[1] Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. A Public Domain Dataset for Human Activity Recognition Using Smartphones. 21th European Symposium on Artificial Neural Networks, Computational Intelligence and Machine Learning, ESANN 2013. Bruges, Belgium 24-26 April 2013. 
+
+This dataset is distributed AS-IS and no responsibility implied or explicit can be addressed to the authors or their institutions for its use or misuse. Any commercial use is prohibited.
